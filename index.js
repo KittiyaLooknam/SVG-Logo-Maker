@@ -58,7 +58,7 @@ class Triangle {
   }
 
   render() {
-    return `<polygon points="50,200 250,200 150,50" fill="${this.color}" />`;
+    return `<polygon points="0,200 300,200 150,0" fill="${this.color}" />`;
   }
 }
 
